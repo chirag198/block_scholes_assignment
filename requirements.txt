@@ -1,12 +1,6 @@
-# Block Scholes Assignment: Daily Closing Prices Retrieval
-
-This project retrieves daily closing prices for the BTC-USD pair from OKX’s public REST API.
-
-## Setup
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-requests
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+requests==2.32.3
+urllib3==2.2.3
 
