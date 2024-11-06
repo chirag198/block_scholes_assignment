@@ -13,6 +13,25 @@ class MarketDataFetcher(MarketDataInterface):
         BASE_URL (str): The base URL for OKX's market history endpoint.
     """
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     BASE_URL = "https://okx.com/api/v5/market/history-candles"
 
     def fetch_daily_closing_prices(self, start_date: str, end_date: str) -> list:
